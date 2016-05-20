@@ -12,5 +12,15 @@ Emacs说: "我爱你多一点"
 每次输入520,都会随机变成5.20或52.0
 [[file:./screen.gif]]
 
+* Install
+** Spacemacs
+Add to ~dotspacemacs-additional-packages'()~
+#+BEGIN_SRC 
+dotspacemacs-additional-packages'(
+     (520-mode :location (recipe
+                                 :fetcher github
+                                 :repo "lujun9972/520-mode"))
+)
+#+END_SRC
 * Usage
 M-x 520-mode
