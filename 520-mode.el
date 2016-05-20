@@ -1,8 +1,9 @@
 (defun 520dyd ()
   (interactive)
   (save-excursion
-    (when (string= "520" (buffer-substring-no-properties (- (point) 3)
-                                                         (point)))
+    (when (and (> (point) 3)
+               (string= "520" (buffer-substring-no-properties (- (point) 3)
+                                                              (point))))
       (backward-char (+ 1 (random 2)))
       (insert "."))))
 
