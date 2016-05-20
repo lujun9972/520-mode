@@ -1,0 +1,12 @@
+#+TITLE: README
+#+AUTHOR: DarkSun
+#+CATEGORY: 520-mode
+#+DATE: [2016-05-20 周五 13:16]
+#+OPTIONS: ^:{}
+
+* 520-mode
+Emacs说: "我爱你多一点"
+
+因此
+
+每次输入520,都会变成5.20
