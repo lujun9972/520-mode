@@ -59,6 +59,7 @@
       (backward-char (+ 1 (random 2)))
       (520-mode--insert-a-point))))
 
+;;;###autoload
 (define-minor-mode 520-mode "我爱你多一点"
   ;; The initial value
   nil
