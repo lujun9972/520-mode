@@ -3,7 +3,7 @@
   (save-excursion
     (when (string= "520" (buffer-substring-no-properties (- (point) 3)
                                                          (point)))
-      (backward-char 2)
+      (backward-char (+ 1 (random 2)))
       (insert "."))))
 
 (define-minor-mode 520-mode "我爱你多一点"
@@ -17,4 +17,3 @@
            520-mode)
       (add-hook 'post-self-insert-hook #'520dyd)
     (remove-hook 'post-self-insert-hook #'520dyd)))
-
