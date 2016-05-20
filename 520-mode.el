@@ -11,7 +11,7 @@
   ;; The initial value
   nil
   ;; The indicator for the mode line
-  " 520"
+  " ❤"
   :group '520-mode
   :global t
   (if (and (boundp '520-mode)
